@@ -5,7 +5,7 @@ public class Persona {
     
     
     public Persona(String tlf){
-        this.nuemroTlf = tlf;
+        this.numeroTlf = tlf;
     }
     
     public String getNumeroDeTelefono(){
