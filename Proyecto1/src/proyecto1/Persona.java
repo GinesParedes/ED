@@ -1,19 +1,19 @@
 package Proyecto1;
 
 public class Persona {
-    protected String numeroDeTelefono;
+    protected String tlf;
     
     
-    public Persona(String numeroDeTelefono){
-        this.numeroDeTelefono = numeroDeTelefono;
+    public Persona(String tlf){
+        this.tlf = tlf;
     }
     
     public String getNumeroDeTelefono(){
-        return numeroDeTelefono;
+        return tlf;
     }
     
     public void setNumeroDeTelefono(String numeroDeTelefono){
-        this.numeroDeTelefono = numeroDeTelefono;
+        this.tlf = numeroDeTelefono;
     }
     
     

@@ -20,7 +20,7 @@ public class Profesor extends Persona {
     public void printInformacionPersonal() {
         System.out.println("Nombre: " + getNombre());
         System.out.println("Edad: " + getEdad());
-        System.out.println("Teléfono: " + this.numeroDeTelefono);
+        System.out.println("Teléfono: " + this.tlf);
     } 
 
     /**
